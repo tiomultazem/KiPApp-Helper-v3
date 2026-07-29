@@ -31,8 +31,8 @@ Pada pembaruan versi **3.2607.01.lt**, kami menambahkan fitur penyuntingan langs
 
 ## Persiapan
 Saya asumsikan anda lanjut membaca karena ingin pindah ke versi 3. Here we go.
-1. Download dan instal Python (kalo anda pengguna KiPApp Helper versi 2, gausah instal lagi)
-2. Download KiPApp Helper v3 versi ZIP dari GitHub, lalu ekstrak.
+1. **Tanpa Instal Python!** Anda tidak perlu lagi menginstal Python. Cukup unduh paket siap pakai (`.zip`) dari halaman Releases GitHub.
+2. Ekstrak paket ZIP yang diunduh.
 3. Siapkan excel SKP dengan 10 kolom urut dari kiri. Yang tidak wajib berarti boleh kosongan.
 
 | Kolom | Judul | Wajib | Aturan isi |
@@ -54,19 +54,14 @@ Format jam yang aman: `HH:MM`, `H:MM`, `HH.MM`, `H.MM`, `HHMM`, angka jam sepert
 
 ---
 
-## Instalasi
-1. Download ZIP KiPApp Helper v3 dari GitHub.
-2. Ekstrak ZIP ke folder yang anda mau.
-3. Jalankan aplikasi sesuai sistem operasi anda:
-   - **Windows:** Klik 2x berkas `run.bat`.
-   - **macOS:** Klik 2x berkas `run.command`. *(Jika muncul kendala izin/permission, jalankan `chmod +x run.command` di Terminal sekali saja).*
-   - **Linux:** Jalankan `./run.sh` di Terminal. *(Pastikan sudah menjalankan `chmod +x run.sh` terlebih dahulu).*
-4. Jendela KiPApp Helper v3 akan terbuka.
-5. Buka file env, isi username dan password SSO anda. Lalu simpan dan edit namanya menjadi ".env"
-pake titik di depannya.
+## Instalasi & Penggunaan
+1. Download **KiPApp_Helper_v3_Windows.zip** dari halaman Releases di GitHub.
+2. Ekstrak isi ZIP ke folder yang anda inginkan.
+3. Buka file `env`, isi username dan password SSO anda, lalu simpan dan ubah namanya menjadi `.env` (pake titik di depannya).
+4. Klik 2x berkas **`KiPApp Helper v3.exe`** untuk menjalankan aplikasi secara langsung.
 
 > [!NOTE]
-> Anda tidak perlu pusing instal dependensi manual. Cukup jalankan berkas peluncur sesuai OS anda (`run.bat` / `run.command` / `run.sh`), dan aplikasi akan otomatis menyiapkan semuanya untuk anda.
+> Aplikasi ini sudah dikompilasi menjadi *Standalone Executable*. Pengguna Windows tidak perlu lagi menginstal Python maupun dependensi apapun.
 
 ---
 
