@@ -25,4 +25,13 @@ graph/
 
 mini.bat
 listfile.txt
+knowledge.txt
+
+# PyInstaller & Build artifacts
+build/
+dist/
+venv_build/
+*.spec
+*.zip
+
 

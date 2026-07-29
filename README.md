@@ -14,10 +14,11 @@ Masih gak mau pindah ke v3? Yaudah.
 
 ## Update
 
-Pada pembaruan versi **3.2607.01.lt**, kami menambahkan fitur penyuntingan langsung (*in-place editing*) dengan dobel klik pada sel tabel kegiatan, penandaan warna merah dinamis untuk baris dengan Rencana Kinerja (RK) yang belum terpetakan, serta validasi entri otomatis yang kini hanya memproses baris kegiatan terpilih yang dicentang.
+Pada pembaruan versi **3.2607.29.pc**, kami merilis versi *Standalone Executable* (`KiPApp Helper v3.exe`) yang terkompilasi murni menjadi biner Windows. Pengguna tidak perlu lagi menginstal Python, PIP, atau dependensi apapun untuk menjalankan aplikasi.
 
 | Versi | Perubahan / Changelog |
 | :--- | :--- |
+| **3.2607.29.pc** | • Rilis *Standalone Executable* Windows (`KiPApp Helper v3.exe`).<br>• Kompilasi modul C-Extension Cython (`.pyd`) untuk performa dan kerahasiaan penuh.<br>• Pengguna tidak perlu menginstal Python maupun dependensi PIP. |
 | **3.2607.01.lt** | • Fitur klik 2x sel tabel kegiatan untuk menyunting secara langsung (*in-place*).<br>• Baris dengan Rencana Kinerja (RK) belum terpetakan diwarnai merah dinamis.<br>• Proses entri hanya memproses baris kegiatan terpilih yang dicentang (dilengkapi validasi peringatan jika kosong).<br>• Dukungan pencocokan nama RK otomatis berbasis teks/string agar lebih fleksibel.<br>• Perbaikan bug minor dan efisiensi memori. |
 | **3.2606.30.blt** / **3.2606.30** | • Perbaikan *bug* kegagalan menghapus tampilan tabel SKP.<br>• Perampingan codebase untuk meningkatkan performa. |
 | **3.2606.11.lt** | • Perbaikan penyesuaian pelebaran kolom. |
@@ -31,8 +32,8 @@ Pada pembaruan versi **3.2607.01.lt**, kami menambahkan fitur penyuntingan langs
 
 ## Persiapan
 Saya asumsikan anda lanjut membaca karena ingin pindah ke versi 3. Here we go.
-1. Download dan instal Python (kalo anda pengguna KiPApp Helper versi 2, gausah instal lagi)
-2. Download KiPApp Helper v3 versi ZIP dari GitHub, lalu ekstrak.
+1. **Tanpa Instal Python!** Anda tidak perlu lagi menginstal Python. Cukup unduh paket siap pakai (`.zip`) dari halaman Releases GitHub.
+2. Ekstrak paket ZIP yang diunduh.
 3. Siapkan excel SKP dengan 10 kolom urut dari kiri. Yang tidak wajib berarti boleh kosongan.
 
 | Kolom | Judul | Wajib | Aturan isi |
@@ -54,19 +55,14 @@ Format jam yang aman: `HH:MM`, `H:MM`, `HH.MM`, `H.MM`, `HHMM`, angka jam sepert
 
 ---
 
-## Instalasi
-1. Download ZIP KiPApp Helper v3 dari GitHub.
-2. Ekstrak ZIP ke folder yang anda mau.
-3. Jalankan aplikasi sesuai sistem operasi anda:
-   - **Windows:** Klik 2x berkas `run.bat`.
-   - **macOS:** Klik 2x berkas `run.command`. *(Jika muncul kendala izin/permission, jalankan `chmod +x run.command` di Terminal sekali saja).*
-   - **Linux:** Jalankan `./run.sh` di Terminal. *(Pastikan sudah menjalankan `chmod +x run.sh` terlebih dahulu).*
-4. Jendela KiPApp Helper v3 akan terbuka.
-5. Buka file env, isi username dan password SSO anda. Lalu simpan dan edit namanya menjadi ".env"
-pake titik di depannya.
+## Instalasi & Penggunaan
+1. Unduh [**KiPApp_Helper_v3_Windows.zip**](https://github.com/tiomultazem/kipapp-helper-v3/releases/latest) dari halaman [Releases GitHub](https://github.com/tiomultazem/kipapp-helper-v3/releases).
+2. Ekstrak isi ZIP ke folder yang anda inginkan.
+3. Buka file `env`, isi username dan password SSO anda, lalu simpan dan ubah namanya menjadi `.env` (pake titik di depannya).
+4. Klik 2x berkas **`KiPApp Helper v3.exe`** untuk menjalankan aplikasi secara langsung.
 
 > [!NOTE]
-> Anda tidak perlu pusing instal dependensi manual. Cukup jalankan berkas peluncur sesuai OS anda (`run.bat` / `run.command` / `run.sh`), dan aplikasi akan otomatis menyiapkan semuanya untuk anda.
+> Aplikasi ini sudah dikompilasi menjadi *Standalone Executable*. Pengguna Windows tidak perlu lagi menginstal Python maupun dependensi apapun.
 
 ---
 

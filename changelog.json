@@ -48,5 +48,10 @@
   ],
   "3.2607.09.pc": [
     "Mengupload ulang file env yang sempat terhapus"
+  ],
+  "3.2607.29.pc": [
+    "Hapus total folder KiPApp Helper mu sekarang,",
+    "mampir ke repo https://github.com/tiomultazem/kipapp-helper-v3",
+    "dan unduh file exe nya. tidak perlu lagi bergantung pada python!"
   ]
 }

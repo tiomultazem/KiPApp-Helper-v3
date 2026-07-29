@@ -1,5 +1,5 @@
 {
-  "currentVersion": "3.2607.09.pc",
+  "currentVersion": "3.2607.29.pc",
   "dev_restart": false,
   "entri": {
     "max_workers": 5
@@ -24,8 +24,8 @@
       }
     },
     "task": {
-      "import_mode": "Spreadsheet"
+      "import_mode": "Excel"
     }
   },
-  "last_pid": 7200
+  "last_pid": 25732
 }
