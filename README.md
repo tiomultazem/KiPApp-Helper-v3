@@ -14,10 +14,11 @@ Masih gak mau pindah ke v3? Yaudah.
 
 ## Update
 
-Pada pembaruan versi **3.2607.01.lt**, kami menambahkan fitur penyuntingan langsung (*in-place editing*) dengan dobel klik pada sel tabel kegiatan, penandaan warna merah dinamis untuk baris dengan Rencana Kinerja (RK) yang belum terpetakan, serta validasi entri otomatis yang kini hanya memproses baris kegiatan terpilih yang dicentang.
+Pada pembaruan versi **3.2607.29**, kami merilis versi *Standalone Executable* (`KiPApp Helper v3.exe`) yang terkompilasi murni menjadi biner Windows. Pengguna tidak perlu lagi menginstal Python, PIP, atau dependensi apapun untuk menjalankan aplikasi.
 
 | Versi | Perubahan / Changelog |
 | :--- | :--- |
+| **3.2607.29** / **3.2607.29.pc** | • Rilis *Standalone Executable* Windows (`KiPApp Helper v3.exe`).<br>• Kompilasi modul C-Extension Cython (`.pyd`) untuk performa dan kerahasiaan penuh.<br>• Pengguna tidak perlu menginstal Python maupun dependensi PIP. |
 | **3.2607.01.lt** | • Fitur klik 2x sel tabel kegiatan untuk menyunting secara langsung (*in-place*).<br>• Baris dengan Rencana Kinerja (RK) belum terpetakan diwarnai merah dinamis.<br>• Proses entri hanya memproses baris kegiatan terpilih yang dicentang (dilengkapi validasi peringatan jika kosong).<br>• Dukungan pencocokan nama RK otomatis berbasis teks/string agar lebih fleksibel.<br>• Perbaikan bug minor dan efisiensi memori. |
 | **3.2606.30.blt** / **3.2606.30** | • Perbaikan *bug* kegagalan menghapus tampilan tabel SKP.<br>• Perampingan codebase untuk meningkatkan performa. |
 | **3.2606.11.lt** | • Perbaikan penyesuaian pelebaran kolom. |
@@ -55,7 +56,7 @@ Format jam yang aman: `HH:MM`, `H:MM`, `HH.MM`, `H.MM`, `HHMM`, angka jam sepert
 ---
 
 ## Instalasi & Penggunaan
-1. Download **KiPApp_Helper_v3_Windows.zip** dari halaman Releases di GitHub.
+1. Unduh [**KiPApp_Helper_v3_Windows.zip**](https://github.com/tiomultazem/kipapp-helper-v3/releases/latest) dari halaman [Releases GitHub](https://github.com/tiomultazem/kipapp-helper-v3/releases).
 2. Ekstrak isi ZIP ke folder yang anda inginkan.
 3. Buka file `env`, isi username dan password SSO anda, lalu simpan dan ubah namanya menjadi `.env` (pake titik di depannya).
 4. Klik 2x berkas **`KiPApp Helper v3.exe`** untuk menjalankan aplikasi secara langsung.
