@@ -14,7 +14,7 @@ Masih gak mau pindah ke v3? Yaudah.
 
 ## Update
 
-Pada pembaruan versi **3.2607.29.pc**, kami merilis versi *Standalone Executable* (`KiPApp Helper v3.exe`) yang terkompilasi murni menjadi biner Windows. Pengguna tidak perlu lagi menginstal Python, PIP, atau dependensi apapun untuk menjalankan aplikasi.
+Pada pembaruan versi **3.2607.29.pc**, kami merilis versi *Standalone Executable* (`KiPApp Helper v3.exe`) yang terkompilasi murni menjadi biner Windows. Pengguna windows tidak perlu lagi menginstal Python, PIP, atau dependensi apapun untuk menjalankan aplikasi. Pengguna Linux/Mac? Sabar ya, gimme a Mac so I can code for you too.
 
 | Versi | Perubahan / Changelog |
 | :--- | :--- |
