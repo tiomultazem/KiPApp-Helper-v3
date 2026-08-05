@@ -56,13 +56,25 @@ Format jam yang aman: `HH:MM`, `H:MM`, `HH.MM`, `H.MM`, `HHMM`, angka jam sepert
 ---
 
 ## Instalasi & Penggunaan
+
+### Windows
 1. Unduh [**KiPApp_Helper_v3_Windows.zip**](https://github.com/tiomultazem/kipapp-helper-v3/releases/latest) dari halaman [Releases GitHub](https://github.com/tiomultazem/kipapp-helper-v3/releases).
 2. Ekstrak isi ZIP ke folder yang anda inginkan.
 3. Buka file `env`, isi username dan password SSO anda, lalu simpan dan ubah namanya menjadi `.env` (pake titik di depannya).
 4. Klik 2x berkas **`KiPApp Helper v3.exe`** untuk menjalankan aplikasi secara langsung.
 
+### macOS / Linux
+1. Unduh kode sumber atau klon repositori ini.
+2. Pastikan Python 3.12 atau yang lebih baru sudah terpasang.
+3. Buka file `env`, isi username dan password SSO anda, lalu simpan dan ubah namanya menjadi `.env`.
+4. Pasang dependensi dan jalankan:
+   ```bash
+   pip install -r requirements.txt
+   python main.py
+   ```
+
 > [!NOTE]
-> Aplikasi ini sudah dikompilasi menjadi *Standalone Executable*. Pengguna Windows tidak perlu lagi menginstal Python maupun dependensi apapun.
+> Biner `.exe` hanya untuk Windows. Pengguna macOS/Linux harus menjalankan aplikasi lewat kode sumber Python (`main.py`).
 
 ---
 
